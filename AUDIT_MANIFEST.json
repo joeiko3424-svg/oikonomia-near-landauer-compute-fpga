@@ -1,0 +1,9 @@
+{
+  "kernel": "Linux version 7.0.0-1017-aws (buildd@lcy02-amd64-022) (x86_64-linux-gnu-gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0, GNU ld (GNU Binutils for Ubuntu) 2.46) #18-Ubuntu SMP PREEMPT Tue Oct 27 20:48:19 UTC 2026",
+  "files": {
+    "exp3_landauer_compute": "68d12b7296321e74341734fffd78f44f6c5029e7ca663e9b5de69a3a7374edf1",
+    "exp3_landauer_compute.c": "299a0038f1a79ce3fc7df317e70bd1557308e8d7c9058daa99e389e01f9560f2",
+    "exp3_summary.json": "ed97076fa47bd1c3acf669fad66f3563573d1452603c2f0c304aff5f0816724c",
+    "hardware_telemetry_exp3.log": "78ec113eb6c82d59ae2b43ab29698f006f7b16ec18eb8f94bf94392e8b0e13c2"
+  }
+}

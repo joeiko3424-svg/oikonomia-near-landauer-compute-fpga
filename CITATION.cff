@@ -1,0 +1,11 @@
+﻿cff-version: 1.2.0
+message: "If you use this software or dataset, please cite the accompanying preprint."
+title: "The End of Brute-Force Compute: Logically Reversible 4.00 W Bare-Metal FPGA Silicon vs. Megawatt Von Neumann and GPU Architectures"
+authors:
+  - family-names: "Iko"
+    given-names: "Joseph William"
+    affiliation: "Oikonomia Architektur"
+version: 1.0.0
+date-released: 2026-11-23
+license: MIT
+repository-code: "https://github.com/joeiko3424-svg/oikonomia-near-landauer-compute-fpga"
