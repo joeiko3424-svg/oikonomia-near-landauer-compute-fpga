@@ -15,7 +15,7 @@ Open-source C hardware audit harness (`exp3_landauer_compute.c`), raw Xilinx Ult
 | **100,000-Step Reverse Unwinding ($T^{-1}$)** | **13 drifted bits** (`6.991033e-09` err) | **0 bits LSB Drift** | Exact bijective identity over $\mathbb{Z}_{2^{64}}^{32}$ |
 
 ## Repository Artifacts
-- `Oikonomia_Near_Landauer_Compute_Preprint.pdf` — Peer-review-hardened technical preprint
+- `Oikonomia_Near_Landauer_Compute_Preprint.pdf` — Technical preprint with reproducible C BAR0 audit harness & SHA-256 manifest
 - `exp3_landauer_compute.c` — Compiled C (`gcc -O3 -march=native`) userspace PCIe BAR0 MMIO & manifold benchmark
 - `exp3_summary.json` — Machine-readable telemetry output from `0000:34:00.0`
 - `hardware_telemetry_exp3.log` — Raw `fpga-describe-local-image -S 0 -R -M` power and PCIe/AXI register dump
