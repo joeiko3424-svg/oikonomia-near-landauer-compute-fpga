@@ -20,3 +20,10 @@ Open-source C hardware audit harness (`exp3_landauer_compute.c`), raw Xilinx Ult
 - `exp3_summary.json` — Machine-readable telemetry output from `0000:34:00.0`
 - `hardware_telemetry_exp3.log` — Raw `fpga-describe-local-image -S 0 -R -M` power and PCIe/AXI register dump
 - `AUDIT_MANIFEST.json` — SHA-256 checksums for the EC2-captured hardware audit artifacts
+
+## Zero-Integration 72-Hour Hardware Qualification Sprint
+AI infrastructure, edge-compute, and data-center engineering teams do not need to provision AWS F2 instances, configure PCIe BAR0 drivers, or share a 12-digit AWS Account ID. Oikonomia runs custom deterministic state-transition, energy-per-op, and bit-exact $T^{-1}$ rollback audits inside our air-gapped enclave:
+
+1. **Submit Anonymized Workload Vectors:** Email a JSON/CSV batch of up to 1,000,000 sequential state-transition or long-context trace vectors to `contact@oikonomia-platform.com`.
+2. **Private Vault Execution:** Direct userspace C PCIe BAR0 MMIO validation (`exp3_landauer_compute.c`) executes inside Oikonomia's single-tenant, zero-egress AWS F2 enclave (`4.00 W` steady-state $V_{CCINT}$).
+3. **Cryptographically Signed Telemetry Dossier:** Receive the complete `SHA-256` signed hardware audit log, wall-to-decision energy curve (`nJ/op`), `0 KB` dynamic memory invariance proof, and 0-bit drift $T^{-1}$ reverse-unwinding attestation within 72 hours (`$7,500–$12,000` flat sprint via AWS Marketplace Private Offer or invoice).
